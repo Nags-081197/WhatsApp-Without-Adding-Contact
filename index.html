@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./images/whatsapp-logo.png" sizes="16x16">
+    <title>WhatsApp Without Adding Contact</title>
+    <script>
+        function resizeIframe(obj) {
+          obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+        }
+      </script>
+      <style>
+          iframe{
+              height: 100%;
+              top: 0%;
+              bottom: 0%;
+              left: 0%;
+              right: 0%;
+              }
+      </style>
+</head>
+<body>
+    <iframe src="https://wawac.000webhostapp.com/" frameborder="0" scrolling="no" onload="resizeIframe(this)" style="overflow: hidden; height: 100%;
+    width: 100%; position: absolute;"></iframe>
+</body>
+</html>
