@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script type="text/javascript" src="bootstrap/jquery-3.3.1.slim.min.js"></script>
+	<script type="text/javascript" src="bootstrap/bootstrap.min.js" ></script>
+	<link rel="stylesheet" href="bootstrap/bootstrap.min.css" >
+	
+	<script type="text/javascript" src="bootstrap/jquery-3.5.1.js"></script>
+	<script type="text/javascript" src="bootstrap/jquery.dataTables.min.js" ></script>
+	<script type="text/javascript" src="bootstrap/dataTables.bootstrap4.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css" >
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./images/whatsapp-logo.png" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <script type="text/javascript" defer src="./js/index.js"></script>
+    
+    
+    <title>Whatsapp without Adding Conatcs</title>
+</head>
+<body>
+    <div class="main-index">
+    <nav class="navbar navbar-dark custom-bg">
+        <span class="navbar-brand"><img src="./images/whatsapp-logo.png" class="navimg"> WhatsApp Without Adding Contact</span>
+      </nav>
+    <div class="main-body">
+        <div class="main-body-inner">
+            <div class="bg-modal-chat">
+                <form class="form-wa" id="form1" name="form1" method="GET"> 
+                    <h1 class="h4 mb-3 font-weight-medium text-center">Send WhatsApp Message</h1>
+                
+                    <div class="form-group row text-center">
+                      <label class="col-sm-12 col-form-label text-danger" id="error" name="error"></label>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                      <input type="text" id="phone" name="phone" class="form-control" pattern="[0-9]{11,13}" title="Enter Valid Phone Number With Country Code & without '+' "  required>
+                      
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="text">Text (Optional)</label>
+                        <textarea rows="4" type="text" id="text" name="text" class="form-control" title="Your Message" ></textarea>
+                    </div>
+                
+                    <button class="btn btn-lg btn-block custom-button" type="submit" id ="chat" name="chat">CHAT</button>
+                
+                  </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer class="page-footer font-small custom-footer">
+        <div class="footer-copyright text-center py-3">Designed & Developed By Nagashekar Ananda
+        </div>
+      </footer>
+</body>
+
+</html>
