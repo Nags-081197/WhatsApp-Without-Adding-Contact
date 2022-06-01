@@ -16,10 +16,6 @@ if(isset($_POST['chat'])){
         } 
       else{
         $url = "https://api.whatsapp.com/send?phone=".$phone."&text=".$text;
-        // echo "<script>
-				// 	setTimeout(\"location.href = '$url';'_blank'\",0);
-        // 	</script>";
-        
         echo "<script>
         window.open( '$url', '_blank');
         </script>";
