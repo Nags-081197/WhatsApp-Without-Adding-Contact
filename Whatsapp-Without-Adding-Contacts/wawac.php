@@ -1,13 +1,8 @@
 <?php 
-
 $status = "";
-
 if(isset($_POST['chat'])){
-
 	$phone = $_POST['phone'];
 	$text = $_POST['text1'];
-
-
       if(empty($phone)) {
 	    $status = "Phone Number is Compulsory";  
       }
@@ -20,7 +15,6 @@ if(isset($_POST['chat'])){
         window.open( '$url', '_blank');
         </script>";
       }
-
     }
 ?>
 <!DOCTYPE html>
