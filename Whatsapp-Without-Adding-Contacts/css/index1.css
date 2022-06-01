@@ -1,0 +1,146 @@
+
+
+body {margin: 0;
+    height:100%;
+    width: 100%;
+    background-color: #f8f9fa;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    }
+
+.navimg{
+height: 44px;
+width: 44px;
+}
+
+.custom-bg{
+    background-color: #1ebea5;
+    padding-left: 10%;
+    height: 74px;
+    line-height: 74px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.custom-button{
+    background-color: #01e675;
+    color: #ffffff;
+}
+
+.main-index{
+    height: 100%;
+}
+
+.main-body{
+    background-color:#f8f9fa;
+    height: 100%;
+}
+
+.main-body-inner{
+    margin: 0 12%;
+    padding: 4% 3%;
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.navbar {
+    min-height: 74px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-brand {
+    /* padding: 0 15px; */
+    height: 74px;
+    line-height: 74px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .bg-modal-chat{
+ 	
+    height: 100%;
+    width: 60%;
+	box-sizing: border-box;
+	padding-top: 1%;
+	justify-content: center;
+    align-items: center;
+	margin: auto;
+
+}
+
+  .custom-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:#273443;
+    color:#fff;
+  }
+
+  .form-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-control-placeholder {
+    position: absolute;
+    top: 0;
+    padding: 7px 0 0 13px;
+    transition: all 200ms;
+    opacity: 0.5;
+  }
+  
+  .form-control:focus + .form-control-placeholder,
+  .form-control:valid + .form-control-placeholder {
+    font-size: 75%;
+    transform: translate3d(0, -100%, 0);
+    opacity: 1;
+  }
+
+  @media (min-width: 320px) and (max-width: 426px){
+    body{
+        font-size:0.95rem;
+    }
+
+    .custom-footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color:#273443;
+        color:#fff;
+      }
+
+      .custom-bg{
+        background-color: #1ebea5;
+        padding-left: 8%;
+        height: 61px;
+        line-height: 61px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .custom-font{
+        font-size: 1.15rem;
+    }
+    .custom-font2{
+        font-size: 0.85rem;
+    }
+
+
+}
+
+@media (min-width: 426px){
+
+    .custom-bg{
+        background-color: #1ebea5;
+        padding-left: 10%;
+        height: 74px;
+        line-height: 74px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+
+}
